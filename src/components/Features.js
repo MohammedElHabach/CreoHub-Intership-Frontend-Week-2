@@ -1,7 +1,7 @@
 const Features = () => {
   return (
     <section id="features">
-      <div className="flex flex-col gap-y-7 container mx-auto px-4   md:flex-row  ">
+      <div className="flex flex-col gap-y-7 container mx-auto px-4  md:flex-row  ">
         {/* Left */}
         <div className="flex flex-col space-y-12 md:w-1/2">
           <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
@@ -69,7 +69,7 @@ const Features = () => {
             <div className="rounded-full bg-brightRedSupLight md:bg-transparent">
                 <div className="flex items-center space-x-2">
                     <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
-                        02
+                        03
                     </div>
                     <h3 className="font-bold md:mb-4 md:hidden">Everything you need in one place</h3>
                 </div>
