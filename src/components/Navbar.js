@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className=" relative container mx-auto bg-slate-300 p-6">
+    <nav className=" relative container mx-auto p-6">
       <div className="flex items-center justify-between">
         <div className="pt-2">
           <img src="/logo.svg" alt="logo" />
@@ -24,10 +24,10 @@ const Navbar = () => {
         </div>
         <a
           href="#"
-          class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+          class="hidden px-5 p-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
         >
           Get Started
-        </a>{" "}
+        </a>
       </div>
     </nav>
   );
