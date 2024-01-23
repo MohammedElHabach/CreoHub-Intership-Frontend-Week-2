@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <a
           href="#"
-          class="hidden px-5 p-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+          className="hidden px-5 p-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
         >
           Get Started
         </a>

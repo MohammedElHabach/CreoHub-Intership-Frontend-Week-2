@@ -56,7 +56,7 @@ const Testimonials = () => {
         <div className="flex justify-center mt-12">
           <a
             href="#"
-            class=" px-5 p-2 text-white bg-brightRed rounded-full  hover:bg-brightRedLight"
+            className=" px-5 p-2 text-white bg-brightRed rounded-full  hover:bg-brightRedLight"
           >
             Get Started
           </a>

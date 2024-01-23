@@ -30,7 +30,7 @@ const Features = () => {
 
             <div>
                 <h3 className="font-bold hidden md:block">Track company-wide progress</h3>
-                <p class="text-darkGrayishBlue">
+                <p className="text-darkGrayishBlue">
                     See how your day-to-day tasks fit into the wider vision. Go from
                     tracking progress at the milestone level all the way down to the
                     smallest of details. Never lose sight of the bigger picture
@@ -53,7 +53,7 @@ const Features = () => {
 
             <div>
                 <h3 className="font-bold hidden md:block">Advanced built-in reports</h3>
-                <p class="text-darkGrayishBlue">
+                <p className="text-darkGrayishBlue">
                 Set internal delivery estimates and track progress toward
                 company goals. Our customisable dashboard helps you build out
                 the reports you need to keep key stakeholders informed.
@@ -77,7 +77,7 @@ const Features = () => {
 
             <div>
                 <h3 className="font-bold hidden md:block">Everything you need in one place</h3>
-                <p class="text-darkGrayishBlue">
+                <p className="text-darkGrayishBlue">
                 Stop jumping from one service to another to communicate, store
                 files, track tasks and share documents. Manage offers an
                 all-in-one team productivity solution.
