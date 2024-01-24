@@ -22,9 +22,9 @@ const Navbar = () => {
           <Link href="/" className="hover:text-darkGrayishBlue">
             Pricing
           </Link>
-          <Link href="#testimonials" className="hover:text-darkGrayishBlue">
+          <a href="#testimonials" className="hover:text-darkGrayishBlue">
             Testimonials
-          </Link>
+          </a>
           <Link href="/" className="hover:text-darkGrayishBlue">
             About Us
           </Link>
