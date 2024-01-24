@@ -58,7 +58,7 @@ const Navbar = () => {
           className="absolute flex-col items-center hidden  self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
           <Link onClick={handleOpenMenu} href="">Pricing</Link>
-          <Link  onClick={handleOpenMenu} href="#testimonials">Testimonials</Link>
+          <a  onClick={handleOpenMenu} href="#testimonials">Testimonials</a>
           <Link onClick={handleOpenMenu} href="#">About Us</Link>
           <Link onClick={handleOpenMenu} href="#">Careers</Link>
         </div>
