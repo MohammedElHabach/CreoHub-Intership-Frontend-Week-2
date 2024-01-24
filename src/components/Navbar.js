@@ -1,6 +1,15 @@
+"use client";
 import Link from "next/link";
 
 const Navbar = () => {
+  const handleOpenMenu = () => {
+    const btn = document.getElementById('menu-btn')
+    const nav = document.getElementById('menu')
+    btn.classList.toggle("open")
+    nav.classList.toggle("flex")
+    nav.classList.toggle("hidden")
+  }
+
   return (
     <nav className=" relative container mx-auto p-6">
       <div className="flex items-center justify-between">
@@ -13,7 +22,7 @@ const Navbar = () => {
           <Link href="/" className="hover:text-darkGrayishBlue">
             Pricing
           </Link>
-          <Link href="/#testimonials" className="hover:text-darkGrayishBlue">
+          <Link href="#testimonials" className="hover:text-darkGrayishBlue">
             Testimonials
           </Link>
           <Link href="/" className="hover:text-darkGrayishBlue">
@@ -29,6 +38,30 @@ const Navbar = () => {
         >
           Get Started
         </a>
+
+        {/* Hamburger Icon */}
+        <button
+        onClick={handleOpenMenu}
+          id="menu-btn"
+          className="  block hamburger md:hidden focus:outline-none"
+        >
+          <span className="hamburger-top"></span>
+          <span className="hamburger-middle"></span>
+          <span className="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      <div className="md:hidden">
+        <div
+          id="menu"
+          className="absolute flex-col items-center hidden  self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <Link onClick={handleOpenMenu} href="">Pricing</Link>
+          <Link  onClick={handleOpenMenu} href="#testimonials">Testimonials</Link>
+          <Link onClick={handleOpenMenu} href="#">About Us</Link>
+          <Link onClick={handleOpenMenu} href="#">Careers</Link>
+        </div>
       </div>
     </nav>
   );

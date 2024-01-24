@@ -1,7 +1,7 @@
 const CtaSection = () => {
   return (
-    <section id="cta">
-      <div className="  mt-24 bg-brightRed flex justify-between items-center px-6 py-16">
+    <section >
+      <div id="cta" className="  mt-24 bg-brightRed flex justify-between items-center px-6 py-16">
         <h2 className="text-bold text-white text-4xl md:w-1/2 ">
           Simplify how your team works today.
         </h2>
