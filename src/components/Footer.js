@@ -2,30 +2,28 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" bg-veryDarkBlue ">
-      <div className="flex flex-col  justify-between lg:mx-8  py-10  space-y-10 md:flex-row-reverse md:space-y-0">
-        <div className="flex justify-center items-center  space-x-3">
+    <footer className="xl:container xl:mx-auto bg-veryDarkBlue ">
+      <div className="flex flex-col items-center  justify-between lg:mx-8  py-10  space-y-10 md:flex-row-reverse md:space-y-0">
+        <div className="flex justify-center items-center flex-wrap gap-y-4  space-x-3">
           <input
             type="email"
-            className="rounded-full py-1 px-1  focus:outline-none"
+            className="rounded-full py-1 px-1  pl-5 focus:outline-none"
             placeholder="Updated in your inbox"
           />
-          <button className="text-white bg-brightRed rounded-full px-3">
+          <button className="text-white bg-brightRed hover:bg-brightRedLight rounded-full px-3">
             Go
           </button>
         </div>
 
         <div className="flex justify-center space-x-7">
           <div className="flex flex-col text-white space-y-3">
-            <a href="#">Home</a>
-            <a href="#">Pricing</a>
-            <a href="#">Products</a>
+            <a className="transition-colors duration-500 hover:text-darkGrayishBlue" href="/">Home</a>
+            <a className="transition-colors duration-500 hover:text-darkGrayishBlue" href="#testimonials">Testimonials</a>
           </div>
 
           <div className="flex flex-col text-white space-y-3">
-            <a href="#">Careers</a>
-            <a href="#">About</a>
-            <a href="#">Community</a>
+            <a className="transition-colors duration-500 hover:text-darkGrayishBlue" href="#features">About</a>
+            <a className="transition-colors duration-500 hover:text-darkGrayishBlue" href="#contact">Contact</a>
           </div>
         </div>
 
@@ -33,24 +31,24 @@ const Footer = () => {
          <Link href="/">
          <img className=" max-w-40 mx-auto" src="/logo-white.svg" alt="logo" />
          </Link> 
-          <div className="flex justify-center space-x-7">
+          <div className="flex justify-center space-x-7 sm:pt-2 md:pt-0">
             <img
-              className="h-8 hover:cursor-pointer"
+              className="h-8 hover:cursor-pointer hover:scale-110 transform transition-transform duration-300 ease-in"
               src="/icon-youtube.svg"
               alt="icon"
             />
             <img
-              className="h-8 hover:cursor-pointer"
+              className="h-8 hover:cursor-pointer hover:scale-110 transform transition-transform duration-300 ease-in"
               src="/icon-instagram.svg"
               alt="icon"
             />
             <img
-              className="h-8 hover:cursor-pointer"
+              className="h-8 hover:cursor-pointer hover:scale-110 transform transition-transform duration-300 ease-in"
               src="/icon-pinterest.svg"
               alt="icon"
             />
             <img
-              className="h-8 hover:cursor-pointer"
+              className="h-8 hover:cursor-pointer hover:scale-110 transform transition-transform duration-300 ease-in "
               src="/icon-facebook.svg"
               alt="icon"
             />

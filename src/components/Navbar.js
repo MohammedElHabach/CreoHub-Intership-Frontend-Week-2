@@ -19,18 +19,16 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="hidden md:flex space-x-6">
-          <Link href="/" className="hover:text-darkGrayishBlue">
-            Pricing
-          </Link>
-          <a href="#testimonials" className="hover:text-darkGrayishBlue">
+        
+          <a href="#testimonials" className="transition-colors duration-500 hover:text-darkGrayishBlue">
             Testimonials
           </a>
-          <Link href="/" className="hover:text-darkGrayishBlue">
+          <a href="#features" className="transition-colors  duration-500 hover:text-darkGrayishBlue">
             About Us
-          </Link>
-          <Link href="#" className="hover:text-darkGrayishBlue">
-            Careers
-          </Link>
+          </a>
+          <a href="#contact" className="transition-colors duration-500 hover:text-darkGrayishBlue">
+            Contact
+          </a>
         </div>
         <a
           href="#"
@@ -57,10 +55,9 @@ const Navbar = () => {
           id="menu"
           className="absolute flex-col items-center hidden  self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
-          <Link onClick={handleOpenMenu} href="">Pricing</Link>
           <a  onClick={handleOpenMenu} href="#testimonials">Testimonials</a>
-          <Link onClick={handleOpenMenu} href="#">About Us</Link>
-          <Link onClick={handleOpenMenu} href="#">Careers</Link>
+          <a onClick={handleOpenMenu} href="#features">About Us</a>
+          <a onClick={handleOpenMenu} href="#contact">Contact</a>
         </div>
       </div>
     </nav>
