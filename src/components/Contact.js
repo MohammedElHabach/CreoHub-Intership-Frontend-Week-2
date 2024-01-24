@@ -6,7 +6,7 @@ const Contact = () => {
     
   return (
     <section id="contact" >
-      <div className="container mx-auto flex flex-col  text-center md:text-left mt-20 md:flex-row ">
+      <div className="container mx-auto flex flex-col  text-center md:text-left mt-32 md:flex-row ">
         <div className="space-y-5 md:w-1/2 ">
           <h3 className="font-bold text-4xl">Contact</h3>
           <p className=" md:w-64 text-darkGrayishBlue text-justify">
