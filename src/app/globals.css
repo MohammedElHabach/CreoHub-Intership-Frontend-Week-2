@@ -75,11 +75,7 @@ body {
   }
 }
 
-@media (max-width:479px) {
-  #contact,#testimonials{
-    padding: 0 1rem;
-  }
-}
+
 
 
 

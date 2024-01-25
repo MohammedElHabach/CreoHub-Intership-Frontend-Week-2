@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <section id="testimonials">
+    <section id="testimonials" className="px-4 sm:px-0">
       <div className="mx-auto container  mt-32 ">
         <h2 className="text-3xl font-bold text-center">Testimonials</h2>
 
