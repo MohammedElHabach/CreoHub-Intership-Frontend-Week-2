@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="xl:container xl:mx-auto bg-veryDarkBlue ">
-      <div className="flex flex-col items-center  justify-between lg:mx-8  py-10  space-y-10 md:flex-row-reverse md:space-y-0">
+    <footer className=" bg-veryDarkBlue ">
+      <div className="flex flex-col items-center  justify-between lg:mx-8  py-10  space-y-10 md:flex-row-reverse md:space-y-0 xl:container xl:mx-auto">
         <div className="flex justify-center items-center flex-wrap gap-y-4  space-x-3">
           <input
             type="email"
