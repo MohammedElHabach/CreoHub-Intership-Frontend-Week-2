@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="flex justify-center md:justify-start">
             <a
               href="#"
-              className="px-5 p-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+              className="px-5 p-2 text-white transition duration-300 ease-in-out bg-brightRed rounded-full baseline hover:bg-brightRedLight"
             >
               Get Started
             </a>

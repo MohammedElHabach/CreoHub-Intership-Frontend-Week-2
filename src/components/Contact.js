@@ -35,7 +35,7 @@ const Contact = () => {
 
             <a
                 href="#"
-                className=" mx-auto  px-7 p-2 text-white bg-brightRed rounded-full  hover:bg-brightRedLight"
+                className=" mx-auto  px-7 p-2 text-white transition duration-300 ease-in-out bg-brightRed rounded-full  hover:bg-brightRedLight"
              >
             Submit
           </a>

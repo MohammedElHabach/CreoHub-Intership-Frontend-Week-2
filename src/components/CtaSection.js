@@ -8,7 +8,7 @@ const CtaSection = () => {
         <div>
           <a
             href="#"
-            className="hidden px-5 p-2 text-brightRed bg-white rounded-full  hover:bg-brightRedLight hover:text-white md:block"
+            className="hidden px-5 p-2 text-brightRed bg-white transition duration-300 ease-in-out rounded-full  hover:bg-brightRedLight hover:text-white md:block"
           >
             Get Started
           </a>

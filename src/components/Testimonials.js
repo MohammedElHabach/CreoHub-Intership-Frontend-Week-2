@@ -4,8 +4,8 @@ const Testimonials = () => {
       <div className="mx-auto container  mt-32 ">
         <h2 className="text-3xl font-bold text-center">Testimonials</h2>
 
-        <div className="flex flex-col gap-y-20 mt-24  text-center md:text-left md:flex-row md:space-x-8 md:gap-x-16 ">
-          <div className="flex flex-col items-center rounded-lg p-6 hover:cursor-pointer  hover:scale-110 transition-transform duration-500 ease bg-veryLightGray space-y-5 md:w-1/3">
+        <div className="flex flex-col gap-y-20 mt-24  text-center md:text-left md:gap-x-8 lg:gap-x-16 md:justify-center  md:flex-row md:flex-wrap  ">
+          <div className="flex flex-col items-center rounded-lg p-6 hover:cursor-pointer  hover:scale-110 transition-transform duration-500 ease bg-veryLightGray space-y-5 md:w-2/5 lg:w-1/4 ">
             <div>
               <img
                 className="w-16 -mt-16"
@@ -21,7 +21,7 @@ const Testimonials = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center p-6 hover:cursor-pointer hover:scale-110 transition-transform duration-500 ease bg-veryLightGray space-y-5 md:w-1/3 rounded-lg">
+          <div className="flex flex-col items-center p-6 hover:cursor-pointer hover:scale-110 transition-transform duration-500 ease bg-veryLightGray space-y-5 md:w-2/5 rounded-lg lg:w-1/4 ">
             <div>
               <img
                 className="w-16 -mt-16"
@@ -37,7 +37,7 @@ const Testimonials = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center p-6 hover:cursor-pointer hover:scale-110 transition-transform duration-500 ease bg-veryLightGray space-y-5 md:w-1/3 rounded-lg">
+          <div className="flex flex-col items-center p-6 hover:cursor-pointer hover:scale-110 transition-transform duration-500 ease bg-veryLightGray space-y-5 md:w-3/4 md:mx-auto lg:mx-0 lg:w-1/4 rounded-lg ">
             <div>
               <img
                 className="w-16 -mt-16"
@@ -56,7 +56,7 @@ const Testimonials = () => {
         <div className="flex justify-center mt-10">
           <a
             href="#"
-            className=" px-5 p-2 text-white bg-brightRed rounded-full  hover:bg-brightRedLight"
+            className=" px-5 p-2 text-white transition duration-300 ease-in-out bg-brightRed rounded-full  hover:bg-brightRedLight"
           >
             Get Started
           </a>

@@ -20,11 +20,11 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-6">
         
-          <a href="#testimonials" className="transition-colors duration-500 hover:text-darkGrayishBlue">
-            Testimonials
-          </a>
           <a href="#features" className="transition-colors  duration-500 hover:text-darkGrayishBlue">
             About Us
+          </a>
+          <a href="#testimonials" className="transition-colors duration-500 hover:text-darkGrayishBlue">
+            Testimonials
           </a>
           <a href="#contact" className="transition-colors duration-500 hover:text-darkGrayishBlue">
             Contact
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
         <a
           href="#"
-          className="hidden px-5 p-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+          className="hidden px-5 p-2 text-white bg-brightRed rounded-full baseline transition duration-300 ease-in-out hover:bg-brightRedLight md:block"
         >
           Get Started
         </a>

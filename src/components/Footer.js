@@ -10,7 +10,7 @@ const Footer = () => {
             className="rounded-full py-1 px-1  pl-5 focus:outline-none"
             placeholder="Updated in your inbox"
           />
-          <button className="text-white bg-brightRed hover:bg-brightRedLight rounded-full px-3">
+          <button className="text-white transition duration-300 ease-in-out bg-brightRed hover:bg-brightRedLight rounded-full px-3 py-1">
             Go
           </button>
         </div>
