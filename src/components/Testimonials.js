@@ -4,7 +4,7 @@ const Testimonials = () => {
       <div className="mx-auto container  mt-32 ">
         <h2 className="text-3xl font-bold text-center">Testimonials</h2>
 
-        <div className="flex flex-col gap-y-20 mt-24  text-center md:text-left md:gap-x-8 lg:gap-x-16 md:justify-center  md:flex-row md:flex-wrap  ">
+        <div className="flex flex-col gap-y-20 mt-24  text-center md:text-left md:gap-x-8 lg:gap-x-16 md:justify-between  md:flex-row md:flex-wrap  ">
           <div className="flex flex-col items-center rounded-lg p-6 hover:cursor-pointer  hover:scale-110 transition-transform duration-500 ease bg-veryLightGray space-y-5 md:w-2/5 lg:w-1/4 ">
             <div>
               <img
