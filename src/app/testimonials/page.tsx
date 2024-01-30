@@ -6,7 +6,7 @@ const TestimonialsPage = () => {
   return (
     <>
         <Navbar/>
-        <HeroSection title={"Testimonials"} subtitle={"Echoes of satisfaction resonate through the voices of those who've experienced our offerings."} image={"testi.png"}/>
+        <HeroSection title={"Testimonials"} subtitle={"Echoes of satisfaction resonate through the voices of those who've experienced our offerings."} image={"testi.webp"}/>
         <Testimonials/>
     </>
   )
