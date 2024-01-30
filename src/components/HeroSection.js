@@ -1,4 +1,4 @@
-const HeroSection = ({ title, subtitle, image }) => {
+const HeroSection = ({ title, subtitle, image , customClasses}) => {
   return (
     <section id="hero">
       <div className="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 gap-y-7 md:space-y-0 md:flex-row ">
@@ -7,7 +7,7 @@ const HeroSection = ({ title, subtitle, image }) => {
             {title}
           </h1>
 
-          <p className=" text-darkGrayishBlue max-w-sm text-center md:text-left">
+          <p className={`${customClasses} text-darkGrayishBlue max-w-sm text-center md:text-left `}>
             {subtitle}
           </p>
 
