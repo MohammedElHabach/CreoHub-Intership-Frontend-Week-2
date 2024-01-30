@@ -1,7 +1,11 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const activeLinkColor = "text-brightRed"
+  const pathname = usePathname()
+
   const handleOpenMenu = () => {
     const btn = document.getElementById('menu-btn')
     const nav = document.getElementById('menu')
@@ -20,13 +24,13 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-6">
         
-          <Link href="/about" className="transition-colors  duration-500 hover:text-darkGrayishBlue">
+          <Link href="/about" className={` ${pathname === "/about" ? 'text-brightRed':'transition-colors  duration-500 hover:text-darkGrayishBlue'}`}>
             About Us
           </Link>
-          <Link href="/testimonials" className="transition-colors duration-500 hover:text-darkGrayishBlue">
+          <Link href="/testimonials" className={` ${pathname === "/testimonials" ? 'text-brightRed':'transition-colors  duration-500 hover:text-darkGrayishBlue'}`}>
             Testimonials
           </Link>
-          <Link href="/contact" className="transition-colors duration-500 hover:text-darkGrayishBlue">
+          <Link href="/contact" className={` ${pathname === "/contact" ? 'text-brightRed':'transition-colors  duration-500 hover:text-darkGrayishBlue'}`}>
             Contact
           </Link>
         </div>
