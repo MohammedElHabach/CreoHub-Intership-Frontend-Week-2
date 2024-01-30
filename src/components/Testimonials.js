@@ -20,7 +20,7 @@ const Testimonials = () => {
 
   return (
     <section id="testimonials" className="px-4 sm:px-0">
-      <div className="mx-auto container  mt-32 ">
+      <div className="mx-auto xl:container  mt-32 ">
         <h2 className="text-3xl font-bold text-center">Testimonials</h2>
 
         <div className="flex flex-col gap-y-20 mt-24  text-center md:text-left md:gap-x-8 lg:gap-x-16 md:justify-between  md:flex-row md:flex-wrap  ">

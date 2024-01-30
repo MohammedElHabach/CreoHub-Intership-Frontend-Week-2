@@ -15,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className=" relative container mx-auto p-6">
+    <nav className=" relative xl:container mx-auto p-6">
       <div className="flex items-center justify-between">
         <div className="pt-2">
           <Link href="/">

@@ -1,7 +1,7 @@
 const Features = () => {
   return (
     <section id="features">
-      <div className="flex flex-col gap-y-7 container mx-auto px-4  xl:pt-10  md:flex-row  ">
+      <div className="flex flex-col gap-y-7 xl:container mx-auto px-4  xl:pt-10  md:flex-row  ">
         {/* Left */}
         <div className="flex flex-col space-y-12 md:w-1/2">
           <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
