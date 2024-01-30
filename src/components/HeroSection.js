@@ -7,7 +7,7 @@ const HeroSection = ({ title, subtitle, image , customClasses}) => {
             {title}
           </h1>
 
-          <p className={`${customClasses} text-darkGrayishBlue max-w-sm text-center md:text-left `}>
+          <p className={`${customClasses}  max-w-sm text-center md:text-left `}>
             {subtitle}
           </p>
 

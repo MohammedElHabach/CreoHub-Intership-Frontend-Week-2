@@ -3,8 +3,8 @@ import Testimonials from "@/components/Testimonials";
 
 const TestimonialsPage = () => {
 
-    const customClasses = "line-height: 1.375 uppercase"
-    
+    const customClasses = "leading-9 uppercase"
+
   return (
     <>
       <HeroSection

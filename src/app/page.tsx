@@ -8,6 +8,8 @@ import Contact from "@/components/Contact";
 import "@/app/globals.css";
 
 export default function Home() {
+  const customClasses = "text-darkGrayishBlue"
+
   return (
     <>
       <HeroSection
@@ -16,7 +18,7 @@ export default function Home() {
           "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view."
         }
         image={"illustration-intro.svg"}
-        customClasses={""}
+        customClasses={customClasses}
       />
       <Features />
       <Testimonials />
