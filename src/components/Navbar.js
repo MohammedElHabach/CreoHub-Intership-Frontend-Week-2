@@ -20,15 +20,15 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-6">
         
-          <a href="#features" className="transition-colors  duration-500 hover:text-darkGrayishBlue">
+          <Link href="/about" className="transition-colors  duration-500 hover:text-darkGrayishBlue">
             About Us
-          </a>
-          <a href="#testimonials" className="transition-colors duration-500 hover:text-darkGrayishBlue">
+          </Link>
+          <Link href="/testimonials" className="transition-colors duration-500 hover:text-darkGrayishBlue">
             Testimonials
-          </a>
-          <a href="#contact" className="transition-colors duration-500 hover:text-darkGrayishBlue">
+          </Link>
+          <Link href="/contact" className="transition-colors duration-500 hover:text-darkGrayishBlue">
             Contact
-          </a>
+          </Link>
         </div>
         <a
           href="#"
@@ -55,9 +55,9 @@ const Navbar = () => {
           id="menu"
           className="absolute flex-col items-center hidden  self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
-          <a onClick={handleOpenMenu} href="#features">About Us</a>
-          <a  onClick={handleOpenMenu} href="#testimonials">Testimonials</a>
-          <a onClick={handleOpenMenu} href="#contact">Contact</a>
+          <Link onClick={handleOpenMenu} href="/about">About Us</Link>
+          <Link  onClick={handleOpenMenu} href="/testimonials">Testimonials</Link>
+          <Link onClick={handleOpenMenu} href="/contact">Contact</Link>
         </div>
       </div>
     </nav>

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-    <HeroSection/>
+    <HeroSection title={"Bring everyone together to build better products"} subtitle={"Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view."} image={"illustration-intro.svg"} />
     <Features/>
     <Testimonials/>
     <Contact/>
