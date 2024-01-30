@@ -1,5 +1,6 @@
 import Features from "@/components/Features";
 import HeroSection from "@/components/HeroSection";
+import Hobbies from "@/components/Hobbies";
 
 const AboutPage = () => {
     const customClasses = "text-brightRed"
@@ -15,6 +16,7 @@ const AboutPage = () => {
         customClasses={customClasses}
       />
       <Features />
+      <Hobbies/>
     </>
   );
 };
