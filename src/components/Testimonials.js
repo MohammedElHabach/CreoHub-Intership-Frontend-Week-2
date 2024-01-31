@@ -19,7 +19,7 @@ const Testimonials = () => {
   ]
 
   return (
-    <section id="testimonials" className="px-4 sm:px-0">
+    <section id="testimonials" className="px-4 sm:px-0 pt-7">
       <div className="mx-auto xl:container  mt-32 ">
         <h2 className="text-3xl font-bold text-center">Testimonials</h2>
 

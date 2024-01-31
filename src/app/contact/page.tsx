@@ -13,7 +13,7 @@ const ContactPage = () => {
         customClasses={""}
       />
       <Contact />
-      <div className="xl:container mx-auto mt-4 ">
+      <div className="xl:container mx-auto flex flex-col items-center pt-7 ">
         <AccordionCustomIcon />
       </div>
     </>
