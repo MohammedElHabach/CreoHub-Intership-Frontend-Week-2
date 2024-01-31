@@ -1,6 +1,7 @@
 import Contact from "@/components/Contact";
 import HeroSection from "@/components/HeroSection";
 import AccordionCustomIcon from "@/components/Accordion";
+import GridDropDown from "@/components/Grid-DropDown"
 const ContactPage = () => {
   return (
     <>
@@ -16,6 +17,8 @@ const ContactPage = () => {
       <div className="xl:container mx-auto flex flex-col items-center pt-7 ">
         <AccordionCustomIcon />
       </div>
+
+      <GridDropDown/>
     </>
   );
 };
