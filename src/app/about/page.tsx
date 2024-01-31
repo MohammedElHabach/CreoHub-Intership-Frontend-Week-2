@@ -11,7 +11,6 @@ import "swiper/css/scrollbar";
 const AboutPage = () => {
   const customClasses = "text-brightRed";
 
-    
   return (
     <>
       <div className="xl:container mx-auto">
@@ -24,12 +23,13 @@ const AboutPage = () => {
           pagination={{
             type: "fraction",
           }}
+          // autoHeight
           // scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
-            <img className="w-1/3 mx-auto " src="/testi.webp" alt="slide" />
+            <img className="mx-auto  " src="/testi.webp" alt="slide" />
           </SwiperSlide>
           <SwiperSlide>
             <img className="w-1/3 mx-auto" src="/testi.png" alt="slide" />
