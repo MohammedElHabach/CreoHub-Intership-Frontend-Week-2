@@ -1,5 +1,6 @@
 import Contact from "@/components/Contact";
 import HeroSection from "@/components/HeroSection";
+import AccordionCustomIcon from "@/components/Accordion";
 const ContactPage = () => {
   return (
     <>
@@ -12,6 +13,9 @@ const ContactPage = () => {
         customClasses={""}
       />
       <Contact />
+      <div className="xl:container mx-auto mt-4 ">
+        <AccordionCustomIcon />
+      </div>
     </>
   );
 };
