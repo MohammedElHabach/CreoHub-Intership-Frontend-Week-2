@@ -29,7 +29,7 @@ const AboutPage = () => {
           onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
-            <img className="mx-auto  " src="/testi.webp" alt="slide" />
+            <img className="mx-auto w-1/3 " src="/testi.webp" alt="slide" />
           </SwiperSlide>
           <SwiperSlide>
             <img className="w-1/3 mx-auto" src="/testi.png" alt="slide" />
