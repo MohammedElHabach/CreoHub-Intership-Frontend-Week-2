@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <footer className={`bg-veryDarkBlue ${marginTopClass}`}>
-      <div className="flex flex-col items-center  justify-between   py-10  space-y-10 md:flex-row-reverse md:space-y-0 xl:container mx-auto">
+      <div className="flex flex-col items-center  justify-between   py-10  space-y-10 md:flex-row-reverse md:space-y-0 xl:container px-4 mx-auto">
         <div className="flex justify-center items-center flex-wrap gap-y-4  space-x-3">
           <input
             type="email"
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="space-y-5 flex justify-center flex-col mx-8">
+        <div className="space-y-5 flex justify-center flex-col">
           <Link href="/">
             <img
               className=" max-w-40 mx-auto"
