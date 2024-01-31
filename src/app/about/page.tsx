@@ -1,32 +1,44 @@
-"use client"
+"use client";
 import Features from "@/components/Features";
 import HeroSection from "@/components/HeroSection";
 import Hobbies from "@/components/Hobbies";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 const AboutPage = () => {
-    const customClasses = "text-brightRed"
+  const customClasses = "text-brightRed";
 
+    
   return (
     <>
-    <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
-      slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-    >
-      <SwiperSlide><img className="w-1/3 mx-auto"  src="/testi.webp" alt="slide" /></SwiperSlide>
-      <SwiperSlide><img className="w-1/3 mx-auto"  src="/testi.png" alt="slide" /></SwiperSlide>
-      <SwiperSlide><img className="w-1/3 mx-auto"  src="/about.png" alt="slide" /></SwiperSlide>
-    </Swiper>
+      <div className="xl:container mx-auto">
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={50}
+          slidesPerView={1}
+          navigation
+          // pagination={{ clickable: true }}
+          pagination={{
+            type: "fraction",
+          }}
+          // scrollbar={{ draggable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+        >
+          <SwiperSlide>
+            <img className="w-1/3 mx-auto " src="/testi.webp" alt="slide" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="w-1/3 mx-auto" src="/testi.png" alt="slide" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="w-1/3 mx-auto" src="/about.png" alt="slide" />
+          </SwiperSlide>
+        </Swiper>
+      </div>
       <HeroSection
         title={"About Us"}
         subtitle={
@@ -36,7 +48,7 @@ const AboutPage = () => {
         customClasses={customClasses}
       />
       <Features />
-      <Hobbies/>
+      <Hobbies />
     </>
   );
 };
